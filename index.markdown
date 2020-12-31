@@ -9,7 +9,7 @@ position: Graduate Student
 ### About Taufeq
 Taufeq is a Research Assistant at the Collaboratory of Advanced Computing and Simulations at the University of Southern California, Los Angeles. He has specialized in fluids and computational science and has been working on data-driven solutions of partial differential equations for problems in science and engineering.
 
-His expertise in developing high performance numerical simulation codes for parallel and heterogeneous architectures for accurate visualization and optimization.
+His expertise is in developing high performance numerical simulation codes for parallel and heterogeneous architectures for accurate visualization and optimization.
 
 He is also led teams in the advancements to advance their technical stacks and digital presence and contributed across research labs, multidisciplinary research initiatives and taught courses.
 
