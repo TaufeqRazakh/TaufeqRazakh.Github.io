@@ -11,7 +11,7 @@ custom_css: people.css
 <div class="container-xl">
   <div class="d-flex flex-items-start flex-lg-row flex-md-column">
     <div class="" id="about">
-      <h3>About Taufeq</h3>
+      <h3>About</h3>
       <p>
         Taufeq is a Research Assistant at the Collaboratory for Advanced
         Computing and Simulations at the University of Southern California, Los
