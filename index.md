@@ -11,7 +11,7 @@ custom_css: people.css
 <div class="container-md">
   <div class="d-flex flex-items-start flex-lg-row flex-md-column">
     <div class="" id="about">
-      <h3>About</h3>
+      <h3 class="border-top border-gray-dark">About</h3>
       <p>
         Taufeq is a Research Assistant at the Collaboratory for Advanced
         Computing and Simulations at the University of Southern California, Los
@@ -41,7 +41,7 @@ custom_css: people.css
     </div>
 
     <div class="" id="expertise">
-      <h3>Expertise</h3>
+      <h3 class="border-top border-gray-dark">Expertise</h3>
       <ul>
         <li>Java</li>
         <li>Ruby on Rails</li>
@@ -60,7 +60,7 @@ custom_css: people.css
   </div>
 
   <div class="" id="projects">
-    <h3>Projects</h3>
+    <h3 class="border-top border-gray-dark">Projects</h3>
 
     <h4 id="usc-cacs-lab-website---web-administrator--designer">
       USC-CACS Lab Website - Web Administrator &amp; Designer
@@ -105,7 +105,7 @@ custom_css: people.css
   </div>
 
   <div class="" id="hackathons">
-    <h3>Hackathons</h3>
+    <h3 class="border-top border-gray-dark">Hackathons</h3>
     <h4 id="hackthis-illinois-2020---zmate">
       <a href="https://devpost.com/software/zmate"
         >HackThis Illinois 2020 - Zmate</a
@@ -132,7 +132,7 @@ custom_css: people.css
   </div>
 
   <div class="" id="publications">
-    <h3>Publications</h3>
+    <h3 class="border-top border-gray-dark">Publications</h3>
     <h4
       id="physics-informed-neural-network-software-for-molecular-dynamics-applications"
     >
@@ -161,7 +161,7 @@ custom_css: people.css
   </div>
 
   <div class="" id="education">
-    <h3>Education</h3>
+    <h3 class="border-top border-gray-dark">Education</h3>
     <p><strong>University of Southern California</strong></p>
     <ul>
       <li>Masters in Computer Science <em>2021</em></li>
