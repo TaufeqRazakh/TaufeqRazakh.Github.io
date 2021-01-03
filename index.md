@@ -57,6 +57,7 @@ custom_css: people.css
         <li>CUDA</li>
       </ul>
     </div>
+
   </div>
 
   <div class="" id="projects">
@@ -102,6 +103,7 @@ custom_css: people.css
       Weather data pulled the weather channel API, along with news and trending
       search statistics from the guardian news.
     </p>
+
   </div>
 
   <div class="" id="hackathons">
@@ -129,6 +131,7 @@ custom_css: people.css
     <p><img src="https://img.youtube.com/vi/spNHApv0-us/0.jpg" alt="" /></p>
 
     <p>A VR game which teaches you KungFu!!! HTC VIVE, Unity Game Engine</p>
+
   </div>
 
   <div class="" id="publications">
@@ -172,5 +175,6 @@ custom_css: people.css
     <ul>
       <li>Bachelor in Engineering <em>2016</em></li>
     </ul>
+
   </div>
 </div>
