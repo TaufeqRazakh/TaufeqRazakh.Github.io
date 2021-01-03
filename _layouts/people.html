@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.short_name }} | {{page.company}} </title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    {% if page.custom_css %}
+      <link rel="stylesheet" href="assets/css/{{page.custom_css}}">
+    {% endif %}
   </head>
   <body>
     {{content}}

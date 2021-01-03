@@ -34,6 +34,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+sass:
+  style: compressed
+
 defaults:
   - scope:
       path: "**/*"
