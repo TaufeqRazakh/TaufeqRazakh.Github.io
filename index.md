@@ -8,7 +8,7 @@ position: Graduate Student
 custom_css: people.css
 ---
 
-<div class="container-xl">
+<div class="container-md">
   <div class="d-flex flex-items-start flex-lg-row flex-md-column">
     <div class="" id="about">
       <h3>About</h3>
