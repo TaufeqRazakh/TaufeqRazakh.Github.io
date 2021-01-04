@@ -21,8 +21,16 @@
   padding-left: 40px !important;
 }
 
-@media (min-width: 1012px) {
-  #expertise {
-    width: 16.6666666667%;
+#projects img, #hackathons img, #publications img {
+  max-width: 380px;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px){
+  #projects img, #hackathons img, #publications img {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
   }
 }

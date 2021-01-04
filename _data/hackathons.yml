@@ -1,0 +1,15 @@
+- title: HackThis Illinois 2020 - Zmate
+  description: Zmate is a tool for students taking
+    classes online. Where every course instructor has their own zoom link,
+    there comes the addition of office hours and study sessions - which makes
+    it hard to keep track of those links. Zmate is a centralized repository
+    for all your course related meetings for a semester where your professors
+    and TA’s post all the necessary links to your personal calendar. Ruby on
+    Rails, HTML, CSS, Heroku
+  image: /assets/zmate.png
+  url: https://devpost.com/software/zmate
+
+- title: Creating Reality Hackathon (AR/VR) 2018 - KungFu Buddy
+  description: A VR game which teaches you KungFu!!! HTC VIVE, Unity Game Engine
+  image: https://img.youtube.com/vi/spNHApv0-us/0.jpg
+  url: https://devpost.com/software/kungfu-buddy

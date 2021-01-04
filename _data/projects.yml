@@ -1,0 +1,29 @@
+- title: USC-CACS Lab Website - Web Administrator &amp; Designer
+  description: Developed a website and publications management system according to
+    the design/identity standards of USC and long term maintainability.
+    For a lab with a growing number of publications, I automated the list
+    page generation by setting up a continuous integration pipeline which
+    runs test and builds an updated list of publications. I used ruby’s
+    Nokogiri library to populate the contents of the page based on XML
+    data files for newer publications. I produced instructions/tutorials
+    to interact with the new publication management system.
+  image: /assets/cacs_website_home.png
+  url: https://sites.usc.edu/cacs/
+
+- title: Responsive React, Node powered News app for Guardian and NYTimes news
+  description: Developed a full stack responsive news app using React and Node JS
+    backend. Designed several components to enhance reusability and hosted
+    on Amazon EC2 web server. The news information for this application is
+    fetched from Guardian and NYTimes API to get real time news data. The
+    backend utilizes REST calls using Node and Express.Js frameworks. The
+    styling for various components in this app is done using
+    React-bootstrap.
+  image: /assets/react_news_app.png
+  url: http://ec2-3-21-245-28.us-east-2.compute.amazonaws.com:3000/
+
+- title: ios Weather and News App
+  description: A location based weather and news app for ios devices which built with the
+    latest SwiftUI framework. Weather data pulled the weather channel API,
+    along with news and trending search statistics from the guardian news.
+  image: /assets/ios_news_weather_app.png
+  url: #projects
