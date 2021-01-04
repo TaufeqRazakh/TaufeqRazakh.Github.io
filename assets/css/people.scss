@@ -14,6 +14,7 @@
 #expertise,
 #projects,
 #hackathons,
+#working-manuscripts,
 #publications,
 #education {
   // Padding
@@ -21,14 +22,20 @@
   padding-left: 40px !important;
 }
 
-#projects img, #hackathons img, #publications img {
+#projects img,
+#hackathons img,
+#working-manuscripts img,
+#publications img {
   max-width: 380px;
   max-height: 380px;
   object-fit: cover;
 }
 
-@media (min-width: 768px){
-  #projects img, #hackathons img, #publications img {
+@media (min-width: 768px) {
+  #projects img,
+  #hackathons img,
+  #working-manuscripts img,
+  #publications img {
     max-width: 250px;
     max-height: 250px;
     object-fit: cover;

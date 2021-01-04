@@ -78,33 +78,15 @@ custom_css: people.css
     {% endfor %}
   </div>
 
-  <div class="col-12 col-lg-10" id="publications">
-    <h3 class="border-top border-gray-dark">Publications</h3>
-    <h4
-      id="physics-informed-neural-network-software-for-molecular-dynamics-applications"
-    >
-      <a href="https://arxiv.org/abs/2011.03490"
-        >Physics-informed Neural-Network Software for Molecular Dynamics
-        Applications</a
-      >
-    </h4>
-    <p>
-      <img src="assets/PND_Schematic.png" alt="" />
-      We have developed a novel differential equation solver software called PND
-      based on the physics-informed neural network for molecular dynamics
-      simulators. Based on automatic differentiation technique provided by
-      Pytorch, our software allows users to flexibly implement equation of atom
-      motions, initial and boundary conditions, and conservation laws as loss
-      function to train the network. PND comes with a parallel molecular
-      dynamics (MD) engine in order for users to examine and optimize loss
-      function design, and different conservation laws and boundary conditions,
-      and hyperparameters, thereby accelerate the PINN-based development for
-      molecular applications. <br />
-      <em
-        >Taufeq Mohammed Razakh, Beibei Wang, Shane Jackson, Rajiv K. Kalia,
-        Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta</em
-      >
-    </p>
+  <div class="col-12 col-lg-10" id="working-manuscripts">
+    <h3 class="border-top border-gray-dark">Working Manuscripts</h3>
+
+    {% for project in site.data.working_manuscripts %}
+      {% include project_card.html title=project.title
+        description=project.description
+        image=project.image
+        url=project.url %}
+    {% endfor %}
   </div>
 
   <div class="col-12 col-lg-10" id="education">

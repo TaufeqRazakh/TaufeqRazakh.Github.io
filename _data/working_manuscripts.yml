@@ -1,0 +1,15 @@
+- title: Physics-informed Neural-Network Software for Molecular Dynamics Applications
+  description: We have developed a novel differential equation solver software called PND
+    based on the physics-informed neural network for molecular dynamics
+    simulators. Based on automatic differentiation technique provided by
+    Pytorch, our software allows users to flexibly implement equation of atom
+    motions, initial and boundary conditions, and conservation laws as loss
+    function to train the network. PND comes with a parallel molecular
+    dynamics (MD) engine in order for users to examine and optimize loss
+    function design, and different conservation laws and boundary conditions,
+    and hyperparameters, thereby accelerate the PINN-based development for
+    molecular applications. <br />
+    <em>Taufeq Mohammed Razakh, Beibei Wang, Shane Jackson, Rajiv K. Kalia,
+      Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta</em>
+  image: assets/PND_Schematic.png
+  url: https://arxiv.org/abs/2011.03490
