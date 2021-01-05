@@ -1,6 +1,6 @@
 footer {
   font-family: var(--font-family-sans-serif);
-  font-family: var(--font-size-medium-mobile);
+  font-size: var(--font-size-medium-mobile);
 }
 
 footer a {
@@ -12,12 +12,16 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer ul {
+  list-style: none;
+}
+
 #download-resume {
   margin: 20px 0;
 }
 
 @media (min-width: 1012px) {
   footer {
-    font-family: var(--font-size-medium-monitor);
+    font-size: var(--font-size-medium-monitor);
   }
 }
