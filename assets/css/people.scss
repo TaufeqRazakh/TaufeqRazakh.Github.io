@@ -82,7 +82,42 @@
 #working-manuscripts h4 a,
 #publications h4 a {
   font-family: var(--font-family-non-serif);
-  font-size: var(--font-size-large-mobile);
+  font-size: var(--font-size-larger-mobile);
   color: black;
   text-decoration: underline;
+}
+
+@media (min-width: 1012px) {
+  #about p,
+  #expertise ul,
+  #projects p,
+  #hackathons p,
+  #working-manuscripts p,
+  #publications p,
+  #education {
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-large-monitor)
+  }
+
+  #about h3,
+  #expertise h3,
+  #projects h3,
+  #hackathons h3,
+  #working-manuscripts h3,
+  #publications h3,
+  #education h3 {
+    font-family: var(--font-family-non-serif);
+    font-size: var(--font-size-jumbo-monitor);
+    font-weight: var(--font-weight-bold-monitor);
+  }
+
+  #projects h4 a,
+  #hackathons h4 a,
+  #working-manuscripts h4 a,
+  #publications h4 a {
+    font-family: var(--font-family-non-serif);
+    font-size: var(--font-size-larger-monitor);
+    color: black;
+    text-decoration: underline;
+  }
 }

@@ -9,15 +9,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 
 :root {
+  // Font variants
   --font-family-non-serif: "Manrope";
   --font-family-serif: "Piazzaolla";
 
+  // Mobile font sizes
   --font-size-large-mobile: 44px;
-  --font-size-larger-mobile: 60px;
+  --font-size-larger-mobile: 50px;
   --font-size-jumbo-mobile: 70px;
 
   --font-weight-bold-mobile: 850;
 
+  // Large media font sizes
+  --font-size-large-monitor: 28px;
+  --font-size-larger-monitor: 32px;
+  --font-size-jumbo-monitor: 40px;
+
+  --font-weight-bold-monitor: 850;
+
+  // Colors
   --text-link: #0c739c;
 }
 
