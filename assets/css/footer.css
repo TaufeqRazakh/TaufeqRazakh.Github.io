@@ -17,7 +17,20 @@ footer ul {
 }
 
 #download-resume {
-  margin: 20px 0;
+  margin: 30px 0;
+}
+
+form .btn, form input {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+form .btn {
+  background-color: var(--bg-blue);
+  color: white;
+  font-family: var(--font-family-non-serif)
 }
 
 @media (min-width: 1012px) {
