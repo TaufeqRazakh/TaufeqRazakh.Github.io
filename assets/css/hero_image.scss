@@ -1,0 +1,18 @@
+---
+---
+
+.hero-image {
+  min-height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 1012px) {
+  .hero-image {
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 45%;
+  }
+}
