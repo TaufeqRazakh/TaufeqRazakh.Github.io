@@ -3,3 +3,26 @@
 
 @import "primer/layout/index";
 @import "primer/utilities/index";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+:root {
+  --font-family-non-serif: "Manrope";
+  --font-family-serif: "Piazzaolla";
+
+  --font-size-large-mobile: 44px;
+  --font-size-larger-mobile: 60px;
+  --font-size-jumbo-mobile: 70px;
+
+  --font-weight-bold-mobile: 850;
+
+  --text-link: #0c739c;
+}
+
+body {
+  font-family: var(--font-family-serif);
+  font-size: 20px;
+  font-weight: 400;
+}
