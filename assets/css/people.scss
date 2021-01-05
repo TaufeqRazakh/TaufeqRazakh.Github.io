@@ -41,3 +41,14 @@
     object-fit: cover;
   }
 }
+
+#about h3,
+#expertise h3,
+#projects h3,
+#hackathons h3,
+#working-manuscripts h3,
+#publications h3,
+#education h3 {
+  padding-top: 25px;
+  border-top: 4px #e1e4e8 solid;
+}
