@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.short_name }} | {{page.company}} </title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">    
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcVWCIaAAAAAA1nkQf3ZtvXBS2i1-Q6FC_8pSzl"></script>
+    {% if page.custom_css %}
+      <link rel="stylesheet" href="assets/css/{{page.custom_css}}">
+    {% endif %}
+    {% include favicon.html %}
+  </head>
+  <body>
+    {{content}}
+
+    {% include footer.html %}
+  </body>
+</html>
