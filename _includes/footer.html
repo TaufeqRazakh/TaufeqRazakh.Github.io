@@ -20,11 +20,19 @@
 
     <div id="reach-out">
       <h3>Let's get in touch <i class="las la-arrow-right"></i></h3>
-      <form action="https://formcarry.com/s/rTWGS_IrGO" method="POST" accept-charset="UTF-8" >
+      <form id="reach-out-form" action="https://formcarry.com/s/rTWGS_IrGO" method="POST" accept-charset="UTF-8" >
         <input name="visitors-email" type="text" placeholder="You email" aria-label="Repository description" />
         <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-        <button class="btn" type="submit">Connect</button>
+        <button class="btn" data-sitekey="6LcVWCIaAAAAAA1nkQf3ZtvXBS2i1-Q6FC_8pSzl" data-callback='onSubmit' data-action='submit'>
+          Connect</button>
       </form>
     </div>
   </div>
 </footer>
+
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("reach-out-form").submit();
+   }
+ </script>
