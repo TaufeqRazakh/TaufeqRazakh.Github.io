@@ -36,3 +36,5 @@ form .btn {
     font-size: var(--font-size-medium-monitor);
   }
 }
+
+.grecaptcha-badge { opacity:0;}
