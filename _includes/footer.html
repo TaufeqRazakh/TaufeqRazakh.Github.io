@@ -1,4 +1,7 @@
-<footer class="bg-gray-dark" style="background: url('assets/egg_shell/egg_shell.png') repeat">
+<footer
+  class="bg-gray-dark"
+  style="background: url('assets/egg_shell/egg_shell.png') repeat;"
+>
   <div class="d-flex flex-column flex-lg-row flex-justify-around p-6">
     <div id="contact-details">
       <ul>
@@ -14,25 +17,46 @@
     </div>
 
     <div id="download-resume">
-        <i class="las la-file-pdf"></i>
-        <a href="assets/Taufeq_Razakh_CV.pdf">Take a resume</a>
+      <i class="las la-file-pdf"></i>
+      <a href="assets/Taufeq_Razakh_CV.pdf">Take a resume</a>
     </div>
 
     <div id="reach-out">
       <h3>Let's get in touch <i class="las la-arrow-right"></i></h3>
-      <form id="reach-out-form" action="https://formcarry.com/s/rTWGS_IrGO" method="POST" accept-charset="UTF-8" >
-        <input name="visitors-email" type="text" placeholder="You email" aria-label="Repository description" />
-        <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-        <button class="btn" data-sitekey="6LcVWCIaAAAAAA1nkQf3ZtvXBS2i1-Q6FC_8pSzl" data-callback='onSubmit' data-action='submit'>
-          Connect</button>
+      <form
+        action="https://formcarry.com/s/rTWGS_IrGO"
+        method="POST"
+        enctype="multipart/form-data"
+        accept-charset="UTF-8"
+      >
+        <input
+          name="visitors-email"
+          type="text"
+          placeholder="You email"
+          aria-label="Repository description"
+        />
+        <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+        <button
+          class="btn"
+          data-sitekey="6LcVWCIaAAAAAA1nkQf3ZtvXBS2i1-Q6FC_8pSzl"
+          data-callback="onSubmit"
+          data-action="submit"
+        >
+          Connect
+        </button>
       </form>
     </div>
   </div>
 </footer>
+<script>
+  grecaptcha.ready(function () {
+    grecaptcha
+      .execute("6LcVWCIaAAAAAA1nkQf3ZtvXBS2i1-Q6FC_8pSzl", {
+        action: "homepage",
+      })
 
- <script src="https://www.google.com/recaptcha/api.js"></script>
- <script>
-   function onSubmit(token) {
-     document.getElementById("reach-out-form").submit();
-   }
- </script>
+      .then(function (token) {
+        document.getElementById("captchaResponse").value = token;
+      });
+  });
+</script>
