@@ -43,11 +43,6 @@ defaults:
       type: "pages"
     values:
       company: CS MechE
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: people
 
 
 # Exclude from processing.
