@@ -24,8 +24,7 @@
 
 #projects img,
 #hackathons img,
-#working-manuscripts img,
-#publications img {
+#working-manuscripts img {
   max-width: 900px;
   max-height: 900px;
   object-fit: cover;
@@ -34,8 +33,7 @@
 @media (min-width: 1012px) {
   #projects img,
   #hackathons img,
-  #working-manuscripts img,
-  #publications img {
+  #working-manuscripts img {
     max-width: 300px;
     max-height: 300px;
     object-fit: cover;
@@ -47,7 +45,6 @@
 #projects h3,
 #hackathons h3,
 #working-manuscripts h3,
-#publications h3,
 #education h3 {
   padding-top: 25px;
   border-top: 4px #e1e4e8 solid;
@@ -70,7 +67,6 @@
 #projects h3,
 #hackathons h3,
 #working-manuscripts h3,
-#publications h3,
 #education h3 {
   font-family: var(--font-family-non-serif);
   font-size: var(--font-size-jumbo-mobile);
@@ -79,8 +75,7 @@
 
 #projects h4 a,
 #hackathons h4 a,
-#working-manuscripts h4 a,
-#publications h4 a {
+#working-manuscripts h4 a {
   font-family: var(--font-family-non-serif);
   font-size: var(--font-size-larger-mobile);
   color: black;
@@ -104,7 +99,6 @@
   #projects h3,
   #hackathons h3,
   #working-manuscripts h3,
-  #publications h3,
   #education h3 {
     font-family: var(--font-family-non-serif);
     font-size: var(--font-size-jumbo-monitor);
@@ -113,8 +107,7 @@
 
   #projects h4 a,
   #hackathons h4 a,
-  #working-manuscripts h4 a,
-  #publications h4 a {
+  #working-manuscripts h4 a {
     font-family: var(--font-family-non-serif);
     font-size: var(--font-size-larger-monitor);
     color: black;
