@@ -1,9 +1,14 @@
-"AJP":
+"ISC":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SC":
+  url: https://supercomputing.org/
 
-"Vision":
+"SoftwareX":
+  url: https://www.sciencedirect.com/journal/softwarex
   color: "#009f36"
+
+"IPDPS":
+  url: https://www.ipdps.org/
+  color: "#302f06"
