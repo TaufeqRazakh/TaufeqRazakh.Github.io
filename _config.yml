@@ -7,7 +7,7 @@ first_name: Taufeq
 middle_name: Mohammed
 last_name: Razakh
 contact_note: >
-  For relevant GitHub issues, please tag me by username. Prefer E-Mails for scheduling meetings (replies in 1-5 days).
+  For relevant GitHub issues, tag my username. When scheduling meetings, I sometimes reply in 1-5 days.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text:
@@ -29,7 +29,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
