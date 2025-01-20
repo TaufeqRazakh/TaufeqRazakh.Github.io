@@ -8,7 +8,7 @@
           <td scope="row" style="width: 20%">{{ item.year }}</td>
           <td>
             {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' }}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {% else %}
               <a class="course-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% endif %}
