@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "courses-csci-596-scientific-computing-and-visualization-physics-135al-physics-for-the-life-sciences-page",
-          title: 'CSCI 596: Scientific Computing and Visualization Physics 135aL: Physics for the Life Sciences...',
+        },{id: "courses-csci-596-scientific-computing-and-visualization-evals-physics-135al-physics-for-the-life-sciences",
+          title: 'CSCI 596: Scientific Computing and Visualization evals Physics 135aL: Physics for the Life...',
           description: "",
           section: "Courses",},{id: "courses-physics-135al-physics-for-the-life-sciences",
           title: 'Physics 135aL: Physics for the Life Sciences',
@@ -41,8 +41,8 @@ ninja.data = [{
           section: "Courses",},{id: "courses-csci-350-introduction-to-operating-systems",
           title: 'CSCI 350: Introduction to Operating Systems',
           description: "",
-          section: "Courses",},{id: "courses-csci-596-scientific-computing-and-visualization",
-          title: 'CSCI 596: Scientific Computing and Visualization',
+          section: "Courses",},{id: "courses-csci-596-scientific-computing-and-visualization-evals",
+          title: 'CSCI 596: Scientific Computing and Visualization evals',
           description: "",
           section: "Courses",},{id: "courses-csci-350-introduction-to-operating-systems",
           title: 'CSCI 350: Introduction to Operating Systems',
