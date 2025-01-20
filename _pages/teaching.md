@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Evaluations and webpages for classes I were a teaching assistant.
+description: Evaluations and webpages for classes I was a teaching assistant.
 nav: true
 nav_order: 2
 display_categories: [usc]
