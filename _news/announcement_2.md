@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Abstract accepted for a presentation at APS Global Physics Summit 2025
-date: 2024-12-23 11:20:00-0400
+date: 2024-12-23 11:20:00 -0800
 inline: false
 related_posts: false
 ---

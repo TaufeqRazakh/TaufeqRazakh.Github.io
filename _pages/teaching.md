@@ -2,11 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Evaluations and webpages for classes I were a teaching assistant.
 nav: true
 nav_order: 2
+display_categories: [usc]
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<div class="projects">
+	<!-- Display categorized courses -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">@{{ category | upcase }}</h2>
+  </a>
+  {% assign categorized_sorted_courses = site.courses | where: "categories", category | reverse%}
+  {% include courses.liquid%}
+  {% endfor %}
+</div>
