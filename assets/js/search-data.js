@@ -23,7 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "courses-csci-596-scientific-computing-and-visualization-physics-135al-physics-for-the-life-sciences",
+        },{id: "courses-csci-596-scientific-computing-and-visualization-physics-135al-physics-for-the-life-sciences-page",
           title: 'CSCI 596: Scientific Computing and Visualization Physics 135aL: Physics for the Life Sciences...',
           description: "",
           section: "Courses",},{id: "courses-physics-135al-physics-for-the-life-sciences",
